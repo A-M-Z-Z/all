@@ -1,4 +1,3 @@
-USE cloudbox;
 -- Create shared_files table to track file sharing
 CREATE TABLE IF NOT EXISTS `shared_files` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
