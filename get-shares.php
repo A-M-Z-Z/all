@@ -12,7 +12,7 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['user_id'])) {
 $host = 'localhost';
 $user = 'root';
 $pass = 'root';
-$dbname = 'cloudbox;
+$dbname = 'cloudbox';
 $conn = new mysqli($host, $user, $pass, $dbname);
 
 if ($conn->connect_error) {
